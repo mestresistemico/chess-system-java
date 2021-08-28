@@ -6,7 +6,9 @@ import boardgame.Piece;
 public class ChessPiece extends Piece{
 	private Color color;
 
-	public ChessPiece() {}
+	public ChessPiece() {
+		super();
+	}
 	
 	public ChessPiece(Board board, Color color) {
 		super(board);
